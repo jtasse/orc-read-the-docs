@@ -1,5 +1,6 @@
 sphinx
 myst-parser
 sphinx-rtd-theme
-sphinx-autobuild
 sphinxcontrib-httpdomain
+sphinxcontrib-openapi
+pyyaml
