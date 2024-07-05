@@ -5,7 +5,7 @@
 
 Welcome!
 ===============================
-ORC is a fictitious API that provides resources to retrieve information about satellites and schedule their decommission.
+The Orbital Refuse Collector (ORC) is a fictitious platform which provides an API offering resources to retrieve information about satellites and schedule their decommission.
 
 See below for descriptions of callable endpoints.
 
