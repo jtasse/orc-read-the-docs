@@ -1,6 +1,5 @@
 sphinx
 myst-parser
 sphinx-rtd-theme
-sphinxcontrib-httpdomain
 sphinxcontrib-openapi
 pyyaml

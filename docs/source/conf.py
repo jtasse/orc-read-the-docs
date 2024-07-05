@@ -2,8 +2,11 @@
 
 import os
 import sys
-from sphinxcontrib.openapi import OpenApiParser
-import yaml
+
+from docutils.parsers.rst import directives
+from sphinx.directives.code import CodeBlock
+
+directives.register_directive("code", CodeBlock)
 
 sys.path.insert(0, os.path.abspath('.'))
 
@@ -26,6 +29,6 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # Register the OpenAPI YAML parser
-def setup(app):
-    app.add_source_suffix('.yaml', 'yaml')
-    app.add_source_parser(OpenApiParser)
+# def setup(app):
+#     app.add_source_suffix('.yaml', 'yaml')
+#     app.add_source_parser('.yaml', 'sphinxcontrib.openapi.OpenApiParser')
