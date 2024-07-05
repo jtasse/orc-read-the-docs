@@ -8,9 +8,8 @@ Welcome to orc's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
-   api_docs
+.. include:: api_docs.rst
 
 
 
