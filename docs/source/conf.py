@@ -3,16 +3,11 @@
 import os
 import sys
 
-from docutils.parsers.rst import directives
-from sphinx.directives.code import CodeBlock
-
-directives.register_directive("code", CodeBlock)
-
 sys.path.insert(0, os.path.abspath('.'))
 
-project = 'My Project'
-author = 'My Name'
-release = '0.1'
+project = 'ORC'
+author = 'James Tasse'
+release = '0.8'
 
 extensions = [
     'sphinx.ext.autodoc',
@@ -27,8 +22,12 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-
-# Register the OpenAPI YAML parser
-# def setup(app):
-#     app.add_source_suffix('.yaml', 'yaml')
-#     app.add_source_parser('.yaml', 'sphinxcontrib.openapi.OpenApiParser')
+html_logo = "./_static/images/Satellite-Reentry-Cropped.png"
+html_theme_options = {
+    'logo_only': False,
+    'display_version': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
+}

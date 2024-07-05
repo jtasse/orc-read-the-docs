@@ -3,19 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to orc's documentation!
+Welcome!
 ===============================
+ORC is a fictitious API that provides resources to retrieve information about satellites and schedule their decommission.
+
+See below for descriptions of callable endpoints.
+
+If you'd like to learn more about the author, check out https://jamestasse.tech.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 20
 
 .. include:: api_docs.rst
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
